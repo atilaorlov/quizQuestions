@@ -3,7 +3,7 @@ questions = [
     {
         "question": "What is the correct syntax for replacing the string apple in the list with the string orange?\nmy_list = [2, 'apple', 3.5]",
         "options": ["a. my_list['orange'] = 1", "b. my_list[1] = 'orange'", "c. 'orange' = my_list[1] ", "d. my_list[1] == 'orange'"],
-        "correct_answer": "my_list[1] = 'orange'"
+        "correct_answer": "b"
     },
     # 2
     {
