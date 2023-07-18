@@ -88,5 +88,44 @@ questions = [
         "question": "In Python, how can the compiler identify the innner block of a for loop?",
         "options": ["a. because of the level of identation after the for loop", "b. because of the end keyword at the end of the for loop", "c. because of a blank space at the end of the body of the for loop", "d. because the block is surrounded by brackets ({})"],
         "correct_answer": "a"
+    },
+    # 16
+    {
+        "question": "What will be the output of this code?\n[1,2,3] * 3",
+        "options": ["a. [3,2,3]", "b. [1, 2, 3, 1, 2, 3, 1, 2, 3]", "c. You will get a type error.", "d. [3,6,9]"],
+        "correct_answer": "b"
+    },
+    # 17
+    {
+        "question": "What will this statement return?\n{x : x*x for x in range(1,100)}",
+        "options": ["a. a dictionary with x as key, and x squared as its value; from 1 to 99", "b. a dictionary with x as key, and x squared as its value; from 1 to 100", "c. a set of tuples, consisting of (x, x squared); from 1 to 99", "d. a list with all numbers squared; from 1 to 99"],
+        "correct_answer": "a"
+    },
+    # 18
+    {
+        "question": "What is the primary difference between lists and tuples?",
+        "options": ["a. You can access a specific element in a list by indexing to its position, but you cannot acces a specific element in a tuple unless you iterate through the tuple.",
+                    "b. Lists are immutable, meaning you cannot change the data that is inside them once you have created the list. Tuples are mutable, meaning you can change the data that is inside them at any time.",
+                    "c. Lists can hold several data types inside them at once, but tuples can only hold the same data type if multiple elements are present",
+                    "d. Lists are mutable, meaning you can change the data that is inside them at any time. Tuples are immutable, meaning you cannot change the data that is inside them once you have created the tuple."],
+        "correct_answer": "d"
+    },
+    # 19
+    {
+        "question": "What value would be returned by this check for equality?\n5 != 6",
+        "options": ["a. True",
+                    "b. False",
+                    "c. None",
+                    "d. yes"],
+        "correct_answer": "a"
+    },
+    # 20
+    {
+        "question": "What is the correct way to call a function",
+        "options": ["a. call.get_max_num([57, 99, 31, 18])",
+                    "b. get_max_num([57, 99, 31, 18])",
+                    "c. def get_max_num([57, 99, 31, 18])",
+                    "d. call.(get_max_num)"],
+        "correct_answer": "b"
     }
 ]
